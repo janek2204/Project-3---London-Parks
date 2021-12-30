@@ -1,7 +1,7 @@
 # General Assembly  Project Three, Full-stack MERN application, Group project
 
 ##  Overview
-Project Three was my first experience of building a full-stack, MERN application as part of a group. After a short amount of discussion, we came up with the idea of building the Best London Parks app, a social app for users to share and review their favourite parks, as well as organise groups with associated activities.
+Project Three was my first experience of building a full-stack, MERN application as part of a group. After a short amount of discussion, we came up with the idea of building the Best London Parks app, a social app for users to share and review their favourite parks.
 
 ## Time to build
 ### 9 days
