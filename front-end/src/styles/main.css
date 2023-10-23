@@ -144,3 +144,7 @@ a.item{
 #activities-segment {
   min-height: 210px !important;
   }
+
+#map{
+  height: 42rem;
+}
