@@ -11,13 +11,14 @@ import {
 } from "semantic-ui-react";
 import Favourite from "./Favourite.js";
 import Weather from "./Weather.js";
-import Map from "react-map-gl";
+import Map, { Marker } from "react-map-gl";
 import Carousel from "react-responsive-carousel/lib/js/components/Carousel/index";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Planner from "./Planner.js";
 import ParkInfo from "./ParkInfo";
 import Activities from "./Activities";
 import { UserComment } from "./UserComment";
+import "mapbox-gl/dist/mapbox-gl.css";
 
 const ParkPage = () => {
   const { id } = useParams();
@@ -97,8 +98,10 @@ const ParkPage = () => {
                 }}
                 longitude={long}
                 latitude={lat}
-                style={{ width: 1100, height: 500 }}
-              />
+                style={{ width: "100%", height: "35rem" }}
+              >
+                <Marker longitude={long} latitude={lat} color="red" />
+              </Map>
             </Segment>
             <Segment basic />
             <Container>
